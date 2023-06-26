@@ -88,3 +88,13 @@ Children:
     ModellingRule: Optional
     Value: "TestProject8"
 - File: Screens/Screens.yaml
+- Name: Label1
+  Id: g=e92ec7bff1f8d946a2392c9d127cc987
+  Supertype: Label
+  ReferenceType: HasComponent
+  Children:
+  - Name: Text
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    ModellingRule: Optional
+    Value: {"LocaleId":"en-US","Text":"Label1"}
